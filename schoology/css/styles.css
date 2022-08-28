@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', 'sans-serif';
+}
+
+header {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-image: url(/assets/schoology.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    background: rgba(83, 181, 238, 0.76);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 60px;
+}
+
+.nombre {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin: 6vh;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-weight: 100%;
+}
+
+.menu li {
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    transition: all 0.2s ease;
+}
+
+.menu li a:hover {
+    background: rgb(0, 0, 0);
+    padding: 0 20px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 0px;
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.title {
+    font-weight: 100%;
+    color: white;
+    font-size: 50px;
+    margin: 10vh;
+    text-shadow: 6px 6px 6px black;
+}
+
+.container {
+    width: 100%;
+    padding: 1.5cm 3cm;
+}
+
+.text-about {
+    margin: 8vh;
+    text-align: center;
+    justify-content: justify;
+}
+
+.h2-s {
+    color: rgba(57, 140, 207, 0.7);
+    font-size: 45px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.311);
+    transition: all 0.7s ease;
+}
+
+.h2-s:hover {
+    font-size: 55px;
+}
+
+.imagen {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0px 10px 30px;
+}
+
+.imagen2 {
+    width: 3%;
+    height: 5%;
+    object-fit: cover;
+}
+
+.footer-cplus {
+    position: fixed;
+    width: 5%;
+    height: 10%;
+    right: 0;
+    bottom: 0;
+    margin: 4vh;
+    cursor: pointer;
+}
+
+.footer-cplus img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 0px rgba(83, 181, 238, 0.76);
+}
+
+.imagen3 {
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 60px;
+    transition: all 0.7s ease;
+}
+
+.imagen3:hover {
+    width: 230px;
+    height: 70px;
+}
+
+footer {
+    background-image: url(/assets/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 190px;
+    width: 100%;
+    color: white;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.footer-c {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-c img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 0px #6258FF;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.wave-2 {
+    position: absolute;
+    width: 100%;
+}
